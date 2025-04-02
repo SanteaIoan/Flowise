@@ -29,6 +29,9 @@
         "postinstall": "husky install",
         "migration:create": "pnpm typeorm migration:create"
     },
+    "dependencies": {
+        "neo4j-driver": "^5.28.1"
+    },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,json,md}": "eslint --fix"
     },

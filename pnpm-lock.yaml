@@ -28,6 +28,10 @@ overrides:
 
 importers:
     .:
+        dependencies:
+            neo4j-driver:
+                specifier: ^5.28.1
+                version: 5.28.1
         devDependencies:
             '@babel/preset-env':
                 specifier: ^7.19.4
