@@ -110,7 +110,7 @@
         "typeorm": "^0.3.6",
         "uuid": "^9.0.1",
         "winston": "^3.9.0",
-        "neo4j-driver": "4.4.11"
+        "neo4j-driver": "^5.28.1"
     },
     "devDependencies": {
         "@types/content-disposition": "0.5.8",
